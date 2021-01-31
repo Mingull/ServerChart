@@ -29,9 +29,6 @@ async function makeChart() {
                         suggestedMin: 170,
                         suggestedMax: 175
                     }
-                }],
-                xAxes: [{
-                    type: 'realtime'
                 }]
             },
             title: {
@@ -40,9 +37,7 @@ async function makeChart() {
             },
             animation: {
                 duration: 1000,
-                easing: 'linear',
-                onProgress: function (anim) {
-                }
+                easing: 'linear'
             }
         }
     });
